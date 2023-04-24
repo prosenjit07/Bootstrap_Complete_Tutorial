@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- link css file -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <a class="navbar-brand" href="#">BOOTSTRAP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- margine auto is for me-auto -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log In</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- end navbar section -->
+
+
+
+    <!-- <h1>Hello, Bootstrap</h1> -->
+    <!-- continer-fluid use use for full-width div -->
+    <!-- bg-warning=yellow,bg-danger=red color -->
+
+
+    <!-- this is jumbotron -->
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Welcome to Bootstrap</h1>
+            <P class="lead">This is tutorial of Bootstrap Page.</P>
+        </div>
+        <!-- this is snipper -->
+        <div class="clearfix">
+            <div class="spinner-border float-end" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- end jumbotron -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col bg-warning">
+                This is first column
+            </div>
+            <div class="col bg-danger">
+                This is second column
+            </div>
+            <div class="col">
+                This is third column
+            </div>
+        </div>
+
+        <!-- bootstrap divide into 12 greed  -->
+        <div class="row">
+            <div class="col-1">
+                this is 4th column
+            </div>
+
+
+            <div class="col-3">
+                this is 5th column
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5 p-3 col-sm-12 col-md-12 bg-primary">
+                this is 6th column
+            </div>
+            <!-- pt=padding top , pb=padding below, pl=padding left, pr=padding right -->
+            <!-- pt-3 use for top padding in surround, -->
+            <!-- p-3 use for padding in surround, in bootstrap padding size bellow 1 to 5 -->
+            <div class="col-7 p-3 bg-danger">
+                this is 7th column
+            </div>
+        </div>
+        <div class="row">
+            <!-- col-sm use for small device, col-md use for medium device, to build responsive  -->
+            <div class="col-8 p-3 bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia sunt perspiciatis obcaecati, illo rem!
+                Totam, incidunt! Exercitationem, quos placeat. Non eius corporis ratione in praesentium veritatis
+                voluptates provident perferendis ut natus. Quidem itaque assumenda, voluptate error cum quas atque odio
+                voluptatum harum impedit natus corrupti, eveniet ex. Cum iusto ducimus pariatur. Odit, quod magnam
+                deserunt ipsam consequatur aliquid itaque laudantium voluptatibus minima eveniet quas eum expedita,
+                nobis illum nostrum cum iste voluptatum temporibus, blanditiis alias rerum exercitationem aliquam dolor.
+                Dolorem quos libero nostrum magnam doloribus alias, asperiores labore corrupti vitae. Dolor eos iure
+                placeat, deleniti ea perspiciatis quo reprehenderit odit, excepturi natus omnis sapiente quia tempora
+                laudantium quisquam! Iusto at earum dicta voluptates minima magni temporibus nisi dolorum provident quis
+                voluptas, id ab officiis, commodi voluptatum est itaque consequuntur dolores non quisquam neque ad
+                ducimus ratione perferendis? Impedit voluptas omnis facilis dicta enim consequatur quod. Quisquam animi
+                reprehenderit ipsa nostrum natus odit quam pariatur quod eveniet eum! Omnis modi, ipsam earum soluta ut
+                alias vel sapiente laborum officia, exercitationem quae unde! Magnam, obcaecati dolor ipsa debitis
+                laborum nam expedita quo quae! Consequuntur laboriosam voluptatem dolore voluptate eos quis sint quidem
+                odit aut dolores quaerat eligendi fugit itaque nostrum consequatur vitae pariatur minus omnis,
+                voluptatum quas sequi necessitatibus magni iure nobis. Veritatis ipsum nulla accusantium quas ullam
+                eligendi reprehenderit consectetur, itaque a, eaque ea cum numquam aliquid deleniti molestias suscipit
+                unde eum alias at quod reiciendis consequatur? Modi assumenda aspernatur fugiat facilis accusantium
+                placeat pariatur beatae, reprehenderit quis aliquid enim?
+            </div>
+            <div class="col-4 p-3 bg-danger">
+                this is 7th column
+            </div>
+        </div>
+    </div>
+
+    <!-- This is table section -->
+    <!-- rem(0 to 5) used for margin, mb=margin bottom, mx=margin left -->
+    <div class="container mb-5">
+
+
+        <table class="table table-striped mb-3">
+            <!-- striped mean table e dorakata color thakbe(black & white) -->
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- list section -->
+    <div class="container">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                The current link item
+            </a>
+            <a href="new_index.html" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+        </div>
+    </div>
+
+
+    <!-- card section -->
+    <div class="container">
+
+        <div class="card-group">
+            <!-- for colorfull card -->
+            <div class="card text-bg-primary mb-3">
+                <img src="/img/social.avif" class="card-img-top" alt="scientist">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/img/pc.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/img/workplacr.avif" class="card-img-top" alt="workplace">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- button section -->
+    <div class="container">
+        <button type="button" class="btn btn-outline-warning">Button</button>
+        <a href="https://www.facebook.com/" class="btn btn-outline-primary" role="button">Facebook</a>
+    </div>
+
+
+
+    <!-- this is badge section -->
+    <div class="container">
+        <h1>Example heading and badge<span class="badge bg-danger">New</span></h1>
+    </div>
+
+    <!-- progressbar section -->
+    <div class="container">
+        <h4>Webdeveloping</h4>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 60%;"
+                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        <br>
+        <h4>Programming and Problem Solving</h4>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%"></div>
+        </div>
+    </div>
+
+
+
+    <!-- image section -->
+    <!-- img-fluid use for responsive -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/img/vr.avif" class="img-fluid" alt="this is vr img">
+            </div>
+
+            <div class="col">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga cupiditate saepe vitae. Et,
+                    doloremque necessitatibus tempora vitae commodi explicabo dicta dignissimos omnis aspernatur?
+                    Necessitatibus dicta voluptate neque quia in labore eveniet voluptatem vero fugiat eius ipsam sequi
+                    nisi praesentium cupiditate molestias voluptatum vel odio ad, saepe nihil impedit! Expedita amet
+                    vitae repellat quae maxime explicabo, quis accusamus nostrum magni voluptates. Et, perspiciatis?
+                    Dolores delectus molestiae odit asperiores voluptatem exercitationem, aperiam totam, quidem,
+                    consequuntur laborum enim. Minima cum error officiis reprehenderit nulla tenetur aliquam nisi
+                    ratione molestiae quam doloribus officia unde aliquid natus, eaque, veritatis dicta sit! Suscipit
+                    velit error assumenda quam doloremque. Iusto, deleniti. Corrupti quaerat sint aspernatur illo.
+                    Commodi vero maxime est nobis deleniti, unde fugiat repudiandae esse aperiam. Aliquam accusamus
+                    tempora repellat fugit quas ipsa animi maxime reprehenderit impedit atque debitis corrupti eos
+                    voluptates ducimus, ad temporibus a facilis recusandae ratione corporis velit aut, quidem incidunt
+                    aspernatur. Exercitationem esse nobis cum eaque! Sunt enim inventore, molestias voluptate ut, error
+                    qui, eos corrupti unde dolorem natus esse rerum debitis voluptatibus facere fuga quibusdam dolor at
+                    commodi consequuntur! Consectetur minima explicabo dolorum ipsa illo quas facere aperiam amet
+                    voluptates autem dolorem, aut molestias reprehenderit animi ab qui atque! Quae nisi neque eveniet
+                    praesentium. Ad odio expedita facere nulla, nam minima voluptas similique quae labore
+                    exercitationem, repudiandae est, atque harum impedit vero magni? Ipsum excepturi hic soluta,
+                    corporis similique sit alias optio, officia officiis deleniti fuga, exercitationem at minus quo
+                    fugiat iste voluptate architecto! Iusto, quam? Libero odio quos facere!.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- this is alert section -->
+    <div class="container">
+        <!-- alert success use for green an d alert danger use for red  -->
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+                longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">You are hacked!</h4>
+            <p>You pc data will be contoled by us. </p>
+        </div>
+    </div>
+
+    <!-- dropdown section -->
+
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- collapus section -->
+
+    <div class="container">
+        <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Button with data-bs-target
+            </button>
+        </p>
+        <!-- data hiding section -->
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+    </div>
+
+    <!-- end collapus section -->
+
+
+
+
+
+
+    <!-- optimal js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

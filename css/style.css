@@ -1,0 +1,45 @@
+.container{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.container-fluid{
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.col{
+    border: 3px solid red;
+}
+
+.col-1{
+    border: 3px solid red;
+} 
+
+.col-3{
+    border: 3px solid red;
+}
+.col-4 {
+    border: 3px solid red;
+}
+.col-5{ 
+    border: 3px solid red;
+} 
+
+.col-7{
+    border: 3px solid red;
+}
+.col-8{
+    border: 3px solid red;
+}
+
+.navbar-light{
+    background-color: rgb(163, 61, 211)!important;
+}
+/* important tag is for overwrite bootstrap class forcefully */
+
+.loginspace{
+    border: 3px solid rgb(97, 97, 126);
+    padding: 10px;
+    background-color: rgb(245, 238, 242);
+}
